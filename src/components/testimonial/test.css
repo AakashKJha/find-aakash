@@ -1,0 +1,49 @@
+.container.test_container{
+    width: 40%;
+}
+.cert_image{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+.cert_image:hover{
+    position:relative;
+    overflow: visible;
+ 
+    width:auto;
+    height:300px;
+    display:block;
+    z-index:1;
+}
+.test{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.cert_details{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+/*Media Query*/
+@media screen and (max-width:1024px){
+    .container.test_container{
+        width: 60%;
+    }
+  
+  }
+  @media screen and (max-width:600px){
+.container.test_container{
+    width: var(--container--width-sm);
+}
+.cert_details{
+    width: var(--container--width-sm);
+}
+     
+  }
