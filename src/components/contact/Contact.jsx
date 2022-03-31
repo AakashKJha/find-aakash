@@ -4,8 +4,12 @@ import {IoMailOutline} from 'react-icons/io5'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs';
 import  { useRef } from 'react';
+import { useState } from "react";
 import emailjs from 'emailjs-com';
 const Contact = () => {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,6 +20,9 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+      setEmail("");
+      setName("");
+      setMessage("");
   };
   return (
 
@@ -45,9 +52,9 @@ const Contact = () => {
         
       </div>
       <form ref={form} onSubmit={sendEmail}>
-        <input type="text" placeholder='Enter Full Name' required></input>
-        <input type="email" name='email' placeholder='your Email' required/>
-        <textarea name='message'rows="7" placeholder='your Message' required></textarea>
+        <input type="text" placeholder='Enter Full Name' value={name} onChange={(e) => setName(e.target.value)} required></input>
+        <input type="email" name='email' placeholder='your Email' onChange={(e) => setEmail(e.target.value)} value={email} required/>
+        <textarea name='message'rows="7" placeholder='your Message' onChange={(e) => setMessage(e.target.value)} value={message} required></textarea>
         <button type="submit" className='btn btn-primary'>Send Message</button>
       </form>
 
