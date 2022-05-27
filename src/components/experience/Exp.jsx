@@ -24,17 +24,17 @@ function Exp() {
           
               <div className='companyName'>
              
-              <h4 >Highradius</h4><small className='text-exp'>Aug 2021 to Present</small>
+              <h4 >Highradius</h4><small className='text-exp'>Aug 2021 to May 2022</small>
              <div>
-             <small className='text-light'><span className='dot_color'>●</span> Working with Regression Algorithm for prediction of target based on 
+             <small className='text-light'><span className='dot_color'>●</span> Worked with Regression Algorithm for prediction of target based on 
               correlations between dependent and independent variables</small>
              </div>
              <div>
-             <small className='text-light'><span className='dot_color'>●</span> Working with Regression Algorithm for prediction of target based on 
+             <small className='text-light'><span className='dot_color'>●</span> Worked with Regression Algorithm for prediction of target based on 
               correlations between dependent and independent variables</small>
              </div>
              <div>
-             <small className='text-light'><span className='dot_color'>●</span> Working with Regression Algorithm for prediction of target based on 
+             <small className='text-light'><span className='dot_color'>●</span> Worked with Regression Algorithm for prediction of target based on 
               correlations between dependent and independent variables</small>
              </div>
 
