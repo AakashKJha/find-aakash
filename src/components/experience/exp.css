@@ -43,6 +43,9 @@
     position: absolute;
 
 }
+.designation{
+    color: #89aa5e;
+}
 .companyName{
     margin-left: 2rem;
 }
