@@ -14,17 +14,37 @@ function Exp() {
       <h2>My Experience</h2>
       <div className="exp_container container">
       <div className="exp_work">
-          <h3>Internship</h3>
+          <h3>Experience</h3>
           <div className="work_exp">
             <div className='work_exp_details_icons'>
             <SiGooglemaps className=''/>
             </div>
-          
-          <article className="work_exp_details">
+            <article className="work_exp_details">
           
               <div className='companyName'>
              
-              <h4 >Highradius</h4><small className='text-exp'>Aug 2021 to May 2022</small>
+              <h4 >Clover Bay Technologies Pvt. Ltd.</h4>
+              <h6 className='designation'>Associate Software Development Engineer</h6>
+              <small className='text-exp'> June 2022 to Present</small>
+             <div>
+             <small className='text-light'><span className='dot_color'>●</span> Worked with Regression Algorithm for prediction of target based on 
+              correlations between dependent and independent variables</small>
+             </div>
+            
+
+              </div>
+          </article>
+          
+          <article className="work_exp_details">
+          <div className='work_exp_details_icons'>
+            <SiGooglemaps className=''/>
+            </div>
+          
+              <div className='companyName'>
+             
+              <h4 >Highradius</h4>
+              <h6 className='designation'>Machine Learning Intern</h6>
+              <small className='text-exp'>Aug 2021 to May 2022 (10 months)</small>
              <div>
              <small className='text-light'><span className='dot_color'>●</span> Worked with Regression Algorithm for prediction of target based on 
               correlations between dependent and independent variables</small>
@@ -43,7 +63,9 @@ function Exp() {
           <article className="work_exp_details">
           <SiGooglemaps className='work_exp_details_icons'/>
               <div className='companyName'>
-              <h4 >Indian Nation Youth Foundation</h4><small className='text-exp'>Jan 2021 to March 2021</small>
+              <h4 >Indian Nation Youth Foundation</h4>
+              <h6 className='designation'>Web Developer Intern</h6>
+              <small className='text-exp'>Jan 2021 to March 2021 (3 months)</small>
               <div>
               <small className='text-light'><span className='dot_color'>●</span> Worked on making some changes to the website and 
               upgrading the website functionality using WordPress</small>
