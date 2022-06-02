@@ -27,8 +27,7 @@ function Exp() {
               <h6 className='designation'>Associate Software Development Engineer</h6>
               <small className='text-exp'> June 2022 to Present</small>
              <div>
-             <small className='text-light'><span className='dot_color'>●</span> Worked with Regression Algorithm for prediction of target based on 
-              correlations between dependent and independent variables</small>
+             <small className='text-light'><span className='dot_color'>●</span> </small>
              </div>
             
 
