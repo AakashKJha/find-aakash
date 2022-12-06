@@ -74,7 +74,7 @@ const data=[
 const Test = () => {
   return (
     <section id='test'>
-        <h5>Proff of learning</h5>
+        <h5>Proof of learning</h5>
         <h2>Certificates</h2>
         <Swiper
           modules={[ Pagination]}
