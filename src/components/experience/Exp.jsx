@@ -27,7 +27,13 @@ function Exp() {
               <h6 className='designation'>Associate Software Development Engineer</h6>
               <small className='text-exp'> June 2022 to Present</small>
              <div>
-             <small className='text-light'><span className='dot_color'>●</span> </small>
+             <small className='text-light'><span className='dot_color'>●</span> Building asynchronous APIS and Kafka consumers using python and
+MongoDB, for e-commerce to be launched with a lot of rare functionalities</small>
+              
+             </div>
+             <div>
+             <small className='text-light'><span className='dot_color'>●</span> Built asynchronous, non-blocking, and event-driven APIs using Java
+Reactive-Spring-Boot and PostgreSQL</small>
              </div>
             
 
@@ -41,7 +47,7 @@ function Exp() {
           
               <div className='companyName'>
              
-              <h4 >Highradius</h4>
+              <h4 >Highradius Corporation</h4>
               <h6 className='designation'>Machine Learning Intern</h6>
               <small className='text-exp'>Aug 2021 to May 2022 (10 months)</small>
              <div>
@@ -89,10 +95,47 @@ function Exp() {
           <article className="exp_details">
           <BsPatchCheckFill className='exp_details_icons'/>
               <div>
+              <h4>Spring Boot</h4>
+              <small className='text-light'><BsStarFill/><BsStarFill/><BsStarHalf/></small>
+              </div>
+          </article>
+          <article className="exp_details">
+          <BsPatchCheckFill className='exp_details_icons'/>
+              <div>
+              <h4>Sanic</h4>
+              <small className='text-light'><BsStarFill/><BsStarFill/><BsStarHalf/></small>
+              </div>
+          </article>
+          <article className="exp_details">
+          <BsPatchCheckFill className='exp_details_icons'/>
+              <div>
               <h4>Python</h4>
               <small className='text-light'><BsStarFill/><BsStarFill/><BsStarHalf/></small>
               </div>
-          </article><article className="exp_details">
+          </article>
+          <article className="exp_details">
+          <BsPatchCheckFill className='exp_details_icons'/>
+              <div>
+              <h4>Asyncio</h4>
+              <small className='text-light'><BsStarFill/><BsStarFill/><BsStarHalf/></small>
+              </div>
+          </article>
+          
+          <article className="exp_details">
+          <BsPatchCheckFill className='exp_details_icons'/>
+              <div>
+              <h4>PostgreSQL</h4>
+              <small className='text-light'><BsStarFill/><BsStarFill/><BsStarHalf/></small>
+              </div>
+          </article>
+          <article className="exp_details">
+          <BsPatchCheckFill className='exp_details_icons'/>
+              <div>
+              <h4>Apache Kafka</h4>
+              <small className='text-light'><BsStarFill/><BsStarFill/><BsStarHalf/></small>
+              </div>
+          </article>
+          <article className="exp_details">
           <BsPatchCheckFill className='exp_details_icons'/>
               <div>
               <h4>Node js</h4>
